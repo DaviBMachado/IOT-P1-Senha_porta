@@ -28,7 +28,7 @@ Para compreender a arquitetura do projeto, é fundamental entender os princípio
 - Display LCD 16x2 com I2C: Uma tela de cristal líquido capaz de exibir 16 caracteres em 2 linhas. A adição do módulo I2C é essencial na Internet das Coisas e sistemas embarcados, pois reduz drasticamente a quantidade de fios necessários de cerca de 6 para apenas 2 (SDA para dados e SCL para o relógio da comunicação).
 
 ### Circuito e Programação
-![alt text](image.png)
+![alt text](.\SenhaPorta.png)
 
 ### Sobre a Programação:
 Para atender à complexidade da regra de negócios do projeto — especificamente o uso de temporizadores não-bloqueantes (millis()) para o modo standby e a integração de bibliotecas externas para a comunicação I2C e o mapeamento da matriz do teclado — a programação foi integralmente desenvolvida em linguagem C++ (Texto). Essa abordagem proporciona maior controle sobre o hardware e a gestão de memória do microcontrolador em comparação à programação em blocos.
